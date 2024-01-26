@@ -1,5 +1,8 @@
 # ninja log v5
-1	5947	7279516056503865	CMakeFiles/CSES_Problem_Set.dir/Weird_Algorithm.cpp.obj	87c176abad380880
-5955	7014	7279516066846213	CSES_Problem_Set.exe	db76212793a0e463
-14	5799	7279516415484452	CMakeFiles/CSES_Problem_Set.dir/Weird_Algorithm.cpp.obj	87c176abad380880
-5800	6351	7279516420461153	CSES_Problem_Set.exe	db76212793a0e463
+36	3944	7279783456679949	CMakeFiles/CSES_Problem_Set.dir/Weird_Algorithm.cpp.obj	87c176abad380880
+9	341	7279789978981224	CSES_Problem_Set.exe	db76212793a0e463
+5	2192	7279786829686106	CMakeFiles/CSES_Problem_Set.dir/Missing_Number.cpp.obj	f316156951b15a66
+1	2539	7279797415814212	CMakeFiles/Missing_Number.dir/Missing_Number.cpp.obj	e60f7696b93bf48a
+2540	2787	7279797418238372	Missing_Number.exe	2c22dfae85cc798
+9	2858	7279797590170427	CMakeFiles/Missing_Number.dir/Missing_Number.cpp.obj	e60f7696b93bf48a
+2859	3103	7279797592264821	Missing_Number.exe	2c22dfae85cc798

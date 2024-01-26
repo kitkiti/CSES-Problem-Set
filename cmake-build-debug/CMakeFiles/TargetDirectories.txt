@@ -1,3 +1,4 @@
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/CSES_Problem_Set.dir
+E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Missing_Number.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/rebuild_cache.dir
