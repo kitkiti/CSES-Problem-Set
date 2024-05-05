@@ -108,6 +108,108 @@ build Missing_Number.exe: CXX_EXECUTABLE_LINKER__Missing_Number_Debug CMakeFiles
   TARGET_IMPLIB = libMissing_Number.dll.a
   TARGET_PDB = Missing_Number.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Weird_Algorithm
+
+
+#############################################
+# Order-only phony target for Weird_Algorithm
+
+build cmake_object_order_depends_target_Weird_Algorithm: phony || CMakeFiles/Weird_Algorithm.dir
+
+build CMakeFiles/Weird_Algorithm.dir/Weird_Algorithm.cpp.obj: CXX_COMPILER__Weird_Algorithm_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Weird$ Algorithm.cpp || cmake_object_order_depends_target_Weird_Algorithm
+  DEP_FILE = CMakeFiles\Weird_Algorithm.dir\Weird_Algorithm.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Weird_Algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\Weird_Algorithm.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Weird_Algorithm
+
+
+#############################################
+# Link the executable Weird_Algorithm.exe
+
+build Weird_Algorithm.exe: CXX_EXECUTABLE_LINKER__Weird_Algorithm_Debug CMakeFiles/Weird_Algorithm.dir/Weird_Algorithm.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Weird_Algorithm.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Weird_Algorithm.exe
+  TARGET_IMPLIB = libWeird_Algorithm.dll.a
+  TARGET_PDB = Weird_Algorithm.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Counting__Rooms
+
+
+#############################################
+# Order-only phony target for Counting__Rooms
+
+build cmake_object_order_depends_target_Counting__Rooms: phony || CMakeFiles/Counting__Rooms.dir
+
+build CMakeFiles/Counting__Rooms.dir/Counting_Rooms.cpp.obj: CXX_COMPILER__Counting__Rooms_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Counting_Rooms.cpp || cmake_object_order_depends_target_Counting__Rooms
+  DEP_FILE = CMakeFiles\Counting__Rooms.dir\Counting_Rooms.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Counting__Rooms.dir
+  OBJECT_FILE_DIR = CMakeFiles\Counting__Rooms.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Counting__Rooms
+
+
+#############################################
+# Link the executable Counting__Rooms.exe
+
+build Counting__Rooms.exe: CXX_EXECUTABLE_LINKER__Counting__Rooms_Debug CMakeFiles/Counting__Rooms.dir/Counting_Rooms.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Counting__Rooms.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Counting__Rooms.exe
+  TARGET_IMPLIB = libCounting__Rooms.dll.a
+  TARGET_PDB = Counting__Rooms.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Minimizing_Coins
+
+
+#############################################
+# Order-only phony target for Minimizing_Coins
+
+build cmake_object_order_depends_target_Minimizing_Coins: phony || CMakeFiles/Minimizing_Coins.dir
+
+build CMakeFiles/Minimizing_Coins.dir/Minimizing_Coins.cpp.obj: CXX_COMPILER__Minimizing_Coins_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Minimizing_Coins.cpp || cmake_object_order_depends_target_Minimizing_Coins
+  DEP_FILE = CMakeFiles\Minimizing_Coins.dir\Minimizing_Coins.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Minimizing_Coins.dir
+  OBJECT_FILE_DIR = CMakeFiles\Minimizing_Coins.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Minimizing_Coins
+
+
+#############################################
+# Link the executable Minimizing_Coins.exe
+
+build Minimizing_Coins.exe: CXX_EXECUTABLE_LINKER__Minimizing_Coins_Debug CMakeFiles/Minimizing_Coins.dir/Minimizing_Coins.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Minimizing_Coins.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Minimizing_Coins.exe
+  TARGET_IMPLIB = libMinimizing_Coins.dll.a
+  TARGET_PDB = Minimizing_Coins.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +238,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build CSES_Problem_Set: phony CSES_Problem_Set.exe
 
+build Counting__Rooms: phony Counting__Rooms.exe
+
+build Minimizing_Coins: phony Minimizing_Coins.exe
+
 build Missing_Number: phony Missing_Number.exe
+
+build Weird_Algorithm: phony Weird_Algorithm.exe
 
 # =============================================================================
 # Folder targets.
@@ -146,7 +254,7 @@ build Missing_Number: phony Missing_Number.exe
 #############################################
 # Folder: E:/University/Competitive/CSES-Problem-Set/cmake-build-debug
 
-build all: phony CSES_Problem_Set.exe Missing_Number.exe
+build all: phony CSES_Problem_Set.exe Missing_Number.exe Weird_Algorithm.exe Counting__Rooms.exe Minimizing_Coins.exe
 
 # =============================================================================
 # Built-in targets
