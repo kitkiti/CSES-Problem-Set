@@ -210,6 +210,40 @@ build Minimizing_Coins.exe: CXX_EXECUTABLE_LINKER__Minimizing_Coins_Debug CMakeF
   TARGET_IMPLIB = libMinimizing_Coins.dll.a
   TARGET_PDB = Minimizing_Coins.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Coin_Combinations_I
+
+
+#############################################
+# Order-only phony target for Coin_Combinations_I
+
+build cmake_object_order_depends_target_Coin_Combinations_I: phony || CMakeFiles/Coin_Combinations_I.dir
+
+build CMakeFiles/Coin_Combinations_I.dir/Coin_Combinations_I.cpp.obj: CXX_COMPILER__Coin_Combinations_I_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Coin_Combinations_I.cpp || cmake_object_order_depends_target_Coin_Combinations_I
+  DEP_FILE = CMakeFiles\Coin_Combinations_I.dir\Coin_Combinations_I.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Coin_Combinations_I.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coin_Combinations_I.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Coin_Combinations_I
+
+
+#############################################
+# Link the executable Coin_Combinations_I.exe
+
+build Coin_Combinations_I.exe: CXX_EXECUTABLE_LINKER__Coin_Combinations_I_Debug CMakeFiles/Coin_Combinations_I.dir/Coin_Combinations_I.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Coin_Combinations_I.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Coin_Combinations_I.exe
+  TARGET_IMPLIB = libCoin_Combinations_I.dll.a
+  TARGET_PDB = Coin_Combinations_I.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -238,6 +272,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build CSES_Problem_Set: phony CSES_Problem_Set.exe
 
+build Coin_Combinations_I: phony Coin_Combinations_I.exe
+
 build Counting__Rooms: phony Counting__Rooms.exe
 
 build Minimizing_Coins: phony Minimizing_Coins.exe
@@ -254,7 +290,7 @@ build Weird_Algorithm: phony Weird_Algorithm.exe
 #############################################
 # Folder: E:/University/Competitive/CSES-Problem-Set/cmake-build-debug
 
-build all: phony CSES_Problem_Set.exe Missing_Number.exe Weird_Algorithm.exe Counting__Rooms.exe Minimizing_Coins.exe
+build all: phony CSES_Problem_Set.exe Missing_Number.exe Weird_Algorithm.exe Counting__Rooms.exe Minimizing_Coins.exe Coin_Combinations_I.exe
 
 # =============================================================================
 # Built-in targets

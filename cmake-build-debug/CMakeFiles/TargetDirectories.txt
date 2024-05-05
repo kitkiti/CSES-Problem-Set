@@ -3,5 +3,6 @@ E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Missing_
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Weird_Algorithm.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Counting__Rooms.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Minimizing_Coins.dir
+E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Coin_Combinations_I.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/rebuild_cache.dir
