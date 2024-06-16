@@ -4,5 +4,9 @@ E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Weird_Al
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Counting__Rooms.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Minimizing_Coins.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Coin_Combinations_I.dir
+E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Coin_Combinations_II.dir
+E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Stick_Length.dir
+E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Dice_Combinations.dir
+E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/Removing_Digits.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/University/Competitive/CSES-Problem-Set/cmake-build-debug/CMakeFiles/rebuild_cache.dir

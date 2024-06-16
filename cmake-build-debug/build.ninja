@@ -244,6 +244,142 @@ build Coin_Combinations_I.exe: CXX_EXECUTABLE_LINKER__Coin_Combinations_I_Debug 
   TARGET_IMPLIB = libCoin_Combinations_I.dll.a
   TARGET_PDB = Coin_Combinations_I.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Coin_Combinations_II
+
+
+#############################################
+# Order-only phony target for Coin_Combinations_II
+
+build cmake_object_order_depends_target_Coin_Combinations_II: phony || CMakeFiles/Coin_Combinations_II.dir
+
+build CMakeFiles/Coin_Combinations_II.dir/Coin_Combinations_II.cpp.obj: CXX_COMPILER__Coin_Combinations_II_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Coin_Combinations_II.cpp || cmake_object_order_depends_target_Coin_Combinations_II
+  DEP_FILE = CMakeFiles\Coin_Combinations_II.dir\Coin_Combinations_II.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Coin_Combinations_II.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coin_Combinations_II.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Coin_Combinations_II
+
+
+#############################################
+# Link the executable Coin_Combinations_II.exe
+
+build Coin_Combinations_II.exe: CXX_EXECUTABLE_LINKER__Coin_Combinations_II_Debug CMakeFiles/Coin_Combinations_II.dir/Coin_Combinations_II.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Coin_Combinations_II.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Coin_Combinations_II.exe
+  TARGET_IMPLIB = libCoin_Combinations_II.dll.a
+  TARGET_PDB = Coin_Combinations_II.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stick_Length
+
+
+#############################################
+# Order-only phony target for Stick_Length
+
+build cmake_object_order_depends_target_Stick_Length: phony || CMakeFiles/Stick_Length.dir
+
+build CMakeFiles/Stick_Length.dir/Stick_Length.cpp.obj: CXX_COMPILER__Stick_Length_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Stick_Length.cpp || cmake_object_order_depends_target_Stick_Length
+  DEP_FILE = CMakeFiles\Stick_Length.dir\Stick_Length.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Stick_Length.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stick_Length.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stick_Length
+
+
+#############################################
+# Link the executable Stick_Length.exe
+
+build Stick_Length.exe: CXX_EXECUTABLE_LINKER__Stick_Length_Debug CMakeFiles/Stick_Length.dir/Stick_Length.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Stick_Length.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Stick_Length.exe
+  TARGET_IMPLIB = libStick_Length.dll.a
+  TARGET_PDB = Stick_Length.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Dice_Combinations
+
+
+#############################################
+# Order-only phony target for Dice_Combinations
+
+build cmake_object_order_depends_target_Dice_Combinations: phony || CMakeFiles/Dice_Combinations.dir
+
+build CMakeFiles/Dice_Combinations.dir/Dice_Combinations.cpp.obj: CXX_COMPILER__Dice_Combinations_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Dice_Combinations.cpp || cmake_object_order_depends_target_Dice_Combinations
+  DEP_FILE = CMakeFiles\Dice_Combinations.dir\Dice_Combinations.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Dice_Combinations.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dice_Combinations.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dice_Combinations
+
+
+#############################################
+# Link the executable Dice_Combinations.exe
+
+build Dice_Combinations.exe: CXX_EXECUTABLE_LINKER__Dice_Combinations_Debug CMakeFiles/Dice_Combinations.dir/Dice_Combinations.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Dice_Combinations.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Dice_Combinations.exe
+  TARGET_IMPLIB = libDice_Combinations.dll.a
+  TARGET_PDB = Dice_Combinations.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Removing_Digits
+
+
+#############################################
+# Order-only phony target for Removing_Digits
+
+build cmake_object_order_depends_target_Removing_Digits: phony || CMakeFiles/Removing_Digits.dir
+
+build CMakeFiles/Removing_Digits.dir/Removing_Digits.cpp.obj: CXX_COMPILER__Removing_Digits_unscanned_Debug E$:/University/Competitive/CSES-Problem-Set/Removing_Digits.cpp || cmake_object_order_depends_target_Removing_Digits
+  DEP_FILE = CMakeFiles\Removing_Digits.dir\Removing_Digits.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IE:/University/Competitive/CSES-Problem-Set/.
+  OBJECT_DIR = CMakeFiles\Removing_Digits.dir
+  OBJECT_FILE_DIR = CMakeFiles\Removing_Digits.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Removing_Digits
+
+
+#############################################
+# Link the executable Removing_Digits.exe
+
+build Removing_Digits.exe: CXX_EXECUTABLE_LINKER__Removing_Digits_Debug CMakeFiles/Removing_Digits.dir/Removing_Digits.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Removing_Digits.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Removing_Digits.exe
+  TARGET_IMPLIB = libRemoving_Digits.dll.a
+  TARGET_PDB = Removing_Digits.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -274,11 +410,19 @@ build CSES_Problem_Set: phony CSES_Problem_Set.exe
 
 build Coin_Combinations_I: phony Coin_Combinations_I.exe
 
+build Coin_Combinations_II: phony Coin_Combinations_II.exe
+
 build Counting__Rooms: phony Counting__Rooms.exe
+
+build Dice_Combinations: phony Dice_Combinations.exe
 
 build Minimizing_Coins: phony Minimizing_Coins.exe
 
 build Missing_Number: phony Missing_Number.exe
+
+build Removing_Digits: phony Removing_Digits.exe
+
+build Stick_Length: phony Stick_Length.exe
 
 build Weird_Algorithm: phony Weird_Algorithm.exe
 
@@ -290,7 +434,7 @@ build Weird_Algorithm: phony Weird_Algorithm.exe
 #############################################
 # Folder: E:/University/Competitive/CSES-Problem-Set/cmake-build-debug
 
-build all: phony CSES_Problem_Set.exe Missing_Number.exe Weird_Algorithm.exe Counting__Rooms.exe Minimizing_Coins.exe Coin_Combinations_I.exe
+build all: phony CSES_Problem_Set.exe Missing_Number.exe Weird_Algorithm.exe Counting__Rooms.exe Minimizing_Coins.exe Coin_Combinations_I.exe Coin_Combinations_II.exe Stick_Length.exe Dice_Combinations.exe Removing_Digits.exe
 
 # =============================================================================
 # Built-in targets

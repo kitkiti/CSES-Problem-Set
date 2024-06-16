@@ -17,7 +17,7 @@ int dp(int x){
     ret += 1;
     memo[x] = ret;
 
-    return ret;
+     return ret;
 }
 
 

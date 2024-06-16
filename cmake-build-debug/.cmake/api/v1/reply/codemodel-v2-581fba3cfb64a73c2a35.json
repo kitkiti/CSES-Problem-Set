@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CSES_Problem_Set",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CSES_Problem_Set::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CSES_Problem_Set-Debug-291441de58e6af35c35a.json",
+					"name" : "CSES_Problem_Set",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Coin_Combinations_I::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Coin_Combinations_I-Debug-63c2a64d5ed297414399.json",
+					"name" : "Coin_Combinations_I",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Coin_Combinations_II::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Coin_Combinations_II-Debug-b18adfe88c714a6231a0.json",
+					"name" : "Coin_Combinations_II",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Counting__Rooms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Counting__Rooms-Debug-867b5529be008f67e4ee.json",
+					"name" : "Counting__Rooms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dice_Combinations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dice_Combinations-Debug-9fe440933a2a65e74dd0.json",
+					"name" : "Dice_Combinations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Minimizing_Coins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Minimizing_Coins-Debug-e99151397f938faaee3c.json",
+					"name" : "Minimizing_Coins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Missing_Number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Missing_Number-Debug-d7f3c9dfc6fc4b21130a.json",
+					"name" : "Missing_Number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Removing_Digits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Removing_Digits-Debug-81ed014403ef0095a1fe.json",
+					"name" : "Removing_Digits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stick_Length::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stick_Length-Debug-4991f00ca5e4dc5f7c81.json",
+					"name" : "Stick_Length",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Weird_Algorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Weird_Algorithm-Debug-83c02fd30adca1c6750e.json",
+					"name" : "Weird_Algorithm",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/University/Competitive/CSES-Problem-Set/cmake-build-debug",
+		"source" : "E:/University/Competitive/CSES-Problem-Set"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
